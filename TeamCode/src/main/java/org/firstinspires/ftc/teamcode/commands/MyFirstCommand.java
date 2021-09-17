@@ -12,6 +12,7 @@ public class MyFirstCommand implements Command {
     public MyFirstCommand(MyFirstSubsystem subsystem, Gamepad gamepad) {
         this.subsystem = subsystem;
         this.gamepad = gamepad;
+        //mytest
     }
 
     @Override
